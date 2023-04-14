@@ -5,4 +5,8 @@ Site vitrine d'In.Fluence
 # Ressources : 
 
 ## Maquette
-figma : a remplir
+figma : https://www.figma.com/file/hmB4ybaQPzq4VD1GCM4pkC/maquette-site-entreprenariat?node-id=0%3A1&t=DEOPlJRUPsviJE7r-1
+
+## Communication : 
+
+Notion : 
