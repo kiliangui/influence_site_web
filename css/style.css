@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    font-family: "Chillax";
+    font-weight: 600;
+}
+section{
+    padding-inline: 2rem;
+    margin-bottom: 2em;
+}
+
+.imgInfluenceur{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+.pseudo{ 
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 0.5rem;
+}
+.sub{
+    font-weight: 300;
+}
+.youtube{
+    background-color: #f70000;
+}
+.tiktok{
+    background-color: white;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 8px;
+    bottom: 16px;
+    gap: 0.25em;
+}
+
+.stats img{
+    display: inline;
+    height: 28px;
+    margin-right: 8px;
+}
+.stats p{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 4px;
+    border-radius: 8px;
+}
+#liste{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    row-gap: 1.5em;
+}
+#hero{
+    display: flex;
+    padding: 0px;
+}
+#hero div{
+    padding-block: 1em;
+    text-align: center;
+    width: 40%;
+}
+#hero img{
+    width: 60%;
+}
+
+
+
+
+
+@media (max-width: 1250px) { 
+    #liste{
+        grid-template-columns: 1fr;
+    }
+ }
+
+
