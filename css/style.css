@@ -1,86 +1,215 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 *{
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
-}
-h1{
-    font-family: "Chillax";
-    font-weight: 600;
-}
-section{
-    padding-inline: 2rem;
-    margin-bottom: 2em;
+    padding: 0;
 }
 
-.imgInfluenceur{
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    color:white
+}
+main{
+    max-width: 1600;
+    padding-inline: 15%;
+}
+li{
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+h1{
+    font-family: "Chillax-Semibold";
+    font-size: 96px;
+    margin-block: 60px;
+}
+
+h2{
+    font-family: "Chillax-Variable";
+}
+
+h3{
+    font-family: "Chillax-Variable";
+}
+strong{
+    color: #FCA311;
+    text-decoration: underline;
+}
+
+.text-center{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: auto;
+    width: 33%;
+}
+form div{
     width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1/1;
 }
-.pseudo{ 
-    font-weight: 500;
+
+
+/*Page form*/
+form label{
+    display: block;
+}
+form input, form textarea{
+    min-height: 1.5rem;
+    width: 100%;
+}
+button, .btn{
+    background-color: unset;
+    color: white;
+    padding-block: .25rem;
+    border: #FCA311 solid 2px;
+}
+button:hover, .btn:hover{
+    cursor: pointer;
+    background-color: #FCA311;
+}
+#formSocials div{
+        width: fit-content;
+}
+#formSocials li{
+    display: flex;
+    gap: 1.5rem;
+}
+#formSocials .first{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+.cardList a:hover{
+    color: white;
+    text-decoration: none;
+}
+.cardList{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 45px;
+    row-gap: 80px;
+    padding: 0;
+}
+.card{
+    flex:1;
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card:hover{
+    transform: scale(105%);
+}
+/*Liste influenceurs*/
+.card .img {
+    position: relative;
+    width: 100%;
+}
+.card .img img{
+    width: 100%;
+
+}
+.card h2{
+    font-family: "Chillax-Regular";
+    font-size: 40px;
+}
+.card p{
     font-size: 24px;
-    margin-top: 0.5rem;
-}
-.sub{
+    font-family:"Montserrat";
     font-weight: 300;
+    color: #EEEEEE;
 }
-.youtube{
-    background-color: #f70000;
-}
-.tiktok{
-    background-color: white;
-}
-.stats{
+.tags{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 8px;
-    bottom: 16px;
-    gap: 0.25em;
+    font-size: 13;
+    bottom:1.5rem;
+    left: 1.5rem;
+    gap: 6px;
 }
-
-.stats img{
-    display: inline;
-    height: 28px;
-    margin-right: 8px;
-}
-.stats p{
+.social {
     display: flex;
     align-items: center;
+    gap: .75rem;
+    background-color:lightgrey;
+    font-family: "Chillax-Regular";
     font-size: 24px;
-    padding: 4px;
-    border-radius: 8px;
+    border-radius: 20px;
+    padding-inline: 11px;
+    padding-block: 5px;
+    width: 100%;
 }
-#liste{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-    row-gap: 1.5em;
+.social img.svg{
+    height: 30px;
+    width: 30px;
+    
 }
-#hero{
+.social.youtube img.svg{
+    height: 35px;
+    width: 35px;
+}
+.youtube{
+    background-color: #EE3F3F;
+}
+.twitch{
+    background-color: #9747FF;
+}
+.instagram{
+    background-color: #E1306C;
+}
+.facebook{
+    background-color: #3b5998;
+}
+.twitter{
+    background-color:  	#1DA1F2;
+}
+.tiktok, .tiktok p{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+/*page presentation Influenceur*/
+.main_i{
+    padding-inline: 5%;
+}
+#influenceur{
     display: flex;
-    padding: 0px;
+    gap: 1rem;
 }
-#hero div{
-    padding-block: 1em;
-    text-align: center;
-    width: 40%;
+#influenceur img{
+    border-radius: 7%;
 }
-#hero img{
-    width: 60%;
+#influenceur ul{
+    display: flex;
+    gap: 5px;
+    width: fit-content;
+    flex-direction: column;
+}
+#influenceur h1{
+    font-family: "Chillax-Regular";
+    font-size: 32pt;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    line-height: 0.75em;
 }
 
 
 
 
 
-@media (max-width: 1250px) { 
-    #liste{
-        grid-template-columns: 1fr;
-    }
- }
 
 
+
+
+
+.flex1{
+    flex:1;
+}
