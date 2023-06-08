@@ -17,7 +17,7 @@
     ?>
   
 
-<div id="equipe">
+<div id="equipeContainer">
     <h1><strong>L'équipe</strong> derrière in.fluence</h1>
     
     <h2>Voici notre équipe:</h2>
