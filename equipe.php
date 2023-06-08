@@ -35,7 +35,7 @@ Mathis Daguts</p>
         </li>
         <li>
             <p  class="nom">Directeur artistique</p>
-    <img src="./img/Lezz.png" alt="Image 3">
+    <img src="./img/moi.webp" alt="Image 3">
             <p>Notre directeur artistique qui<br> s’occupe d’harmoniser les <br>couleurs et le style de notre<br> agence.<br>
 Léni Touzelet</p>
         </li>
