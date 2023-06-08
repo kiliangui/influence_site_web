@@ -18,8 +18,11 @@
 }
 
 .picto {
-    padding-block: .5rem;
+    
     text-align: center;
+    width: 346px ;
+    height: 38px;
+  
 }
 
 #partie_3>main>ul {
@@ -219,8 +222,3 @@ a:hover{
     background-color: #fca311;
 }
 
-
-/* #partie_2>#right>.btn7 {
-  
-   
-}  */
