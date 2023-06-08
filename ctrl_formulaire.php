@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <?php
-    include "composant/head.html";
-    ?>
-</head>
-<body>
 <?php
-    include "composant/header.html";
     $socialType1 = filter_input(INPUT_POST,"socialType1", FILTER_SANITIZE_STRING);
     $socialUrl1 = filter_input(INPUT_POST,"socialUrl1", FILTER_SANITIZE_URL);
 
@@ -37,11 +24,8 @@
     $i = 1;
     $socialType = filter_input(INPUT_POST,"socialType".$i, FILTER_SANITIZE_STRING);
     $socialUrl = filter_input(INPUT_POST,"socialUrl".$i, FILTER_SANITIZE_URL);
-    var_dump($socialType);
-        var_dump($socialUrl);
     while ($socialType != "" && $socialUrl != null && $i < 30) {
-        var_dump($socialType);
-        var_dump($socialUrl);
+
         $sql = "INSERT INTO in_lien (Id_lien, pseudo, url, Id_plateform, Id_influenceur) VALUES (NULL, :pseudo, :url, :plateformId, :userId); ";
         $requetePreparee = $bd->prepare($sql);
         $requetePreparee->BindValue(':pseudo', null);
@@ -57,22 +41,6 @@
     
     $bd = NULL;
 
-    if($requetePreparee){
-
-        echo "<h1>Bienvenue ".$pseudo.$socialUrl1." !</h1><br>";
-    }
-    else{
-        echo "une erreur est survenue";
-    }
-    ?>
-    <?php
-    include "composant/footer.html";
-    ?>
-</body>
-
-</html>
-
-<?php
+    include "vue_confirmation_formulaire.php";
 
 
-?>

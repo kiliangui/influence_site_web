@@ -47,7 +47,7 @@ form{
     flex-direction: column;
     gap: .5rem;
     /* margin: auto; */
-    width: 80%;
+    /* width: 80%; */
 }
 form div{
     width: 100%;
@@ -58,6 +58,9 @@ form div{
 
 #contact{
     display: flex;
+}
+#contact main{
+    width: 40%;
 }
 #contact main p {
     font-size: 32px;
@@ -99,6 +102,19 @@ button:hover, .btn:hover{
     visibility: hidden;
 }
 
+select{
+    color: white;
+    padding: .25rem;
+    background-color: unset;
+    border: 2px #FCA311 solid;
+}
+option{
+    background-color: #000000;
+    border: unset;
+    padding: 0;
+    margin: 0;
+}
+
 #rs{
     margin-top: 25px;
 }
@@ -126,6 +142,12 @@ width: 100%;
 }
 .blockUrl input{
     flex:1
+}
+
+
+#contact main p.conditionForm{
+    margin-top: 1.5rem;
+    font-size: 20px;
 }
 
 
@@ -279,6 +301,15 @@ object-fit: cover;
 }
 
 
+.confirmationForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 85vh;
+    font-size: 24px;
+    text-align: center;
+}
+
 
 
 
@@ -291,5 +322,9 @@ object-fit: cover;
     .cardList{
         display: flex;
         flex-direction: column;
+    }
+
+    main #pro{
+        grid-template-columns: 1fr;
     }
 }

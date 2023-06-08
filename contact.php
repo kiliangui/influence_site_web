@@ -29,7 +29,7 @@
     <p>Envie de développer votre projet avec nous ?<br>
 Contactez-nous maintenant et avançons ensemble !
 </p>
-    <form action="c_formulaire.php" method="post">
+    <form action="ctrl_formulaire.php" method="post">
         <h2>Informations</h2>
         <div>
             <label for="nom">Nom :</label>
@@ -84,7 +84,7 @@ Contactez-nous maintenant et avançons ensemble !
         </div>
         <button id="btnenv" type="submit">ENVOYEZ</button>
     </form>
-    
+    <p class="conditionForm">En remplissant le présent formulaire de contact à l’attention de in.fluence, responsable de traitement, celle-ci traitera vos données personnelles afin de pouvoir satisfaire au mieux votre demande.</p>
     </main>
     <aside>
              <div>
