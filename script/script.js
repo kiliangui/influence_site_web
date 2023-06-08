@@ -44,7 +44,7 @@ addBtn.addEventListener("click",(e)=>{
         })
     delBtn.addEventListener("click",(e)=>{ 
     e.preventDefault()
-    e.target.parentElement.remove()
+    e.target.parentElement.parentElement.parentElement.remove()
     setAllIds()
     })
     setAllIds()

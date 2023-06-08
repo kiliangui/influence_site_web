@@ -67,3 +67,9 @@
     /* margin: 50px; */
     border-radius: 16%;
 }
+
+@media (max-width: 1250px){
+    #equipeContainer ul{
+        flex-direction: column;
+    }
+}
