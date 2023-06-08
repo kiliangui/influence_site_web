@@ -1,0 +1,67 @@
+
+#equipe {
+    margin-left: 120px;
+    width: 90%;
+}
+
+
+#equipe>h2 {
+    font-size: 45px;
+    margin-left: 120px;
+    
+    font-weight: 500;
+    margin-bottom: 80px;
+
+}
+
+#equipe>h1 {
+    font-size: 96px;
+    margin-left: 120px;
+    
+    margin-bottom: 0;
+}
+
+.nom{
+    text-align: center;
+    
+}
+
+
+
+#equipe>.nom>p{
+    font-size: 36px;
+}
+
+
+#equipe>ul {
+    font-size: 45px;
+    gap: 4rem;
+    font-weight: 300;
+    display: flex;
+}
+#equipe >ul li{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+#equipe >ul li>p{
+    font-size: 24px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#equipe ul li img {
+    width: 100%;
+    aspect-ratio: 6/5;
+
+
+
+
+    object-fit: cover;
+    /* margin: 50px; */
+    border-radius: 16%;
+}
