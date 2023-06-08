@@ -29,7 +29,7 @@
 
 
 
-#equipeContainer>.nom>p{
+#equipeContainer p.nom{
     font-size: 36px;
 }
 
