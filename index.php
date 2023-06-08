@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influence - Accueil</title>
-    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <script src="script/jquery-3.7.0.min.js"></script>
+    <script src="script/owl.carousel.min.js" defer></script>
+    
+    <script src="script/carousel.js" defer></script>
     <?php
     include "composant/head.html";
     ?>
@@ -57,8 +63,6 @@ sur les réseaux sociaux. </p>
         <h3>NOS SERVICES</h3>
         <h2>Découvrez Le Pouvoir De <strong>L'innovation</strong></h2>
         <p>Nous proposons une diversité de services que vous ne verrez nulle part ailleurs. Étabmissons une relations de confiance et évoluant de façon optimale.</p>
-
-   
     </div>
 
 
@@ -101,13 +105,27 @@ sur les réseaux sociaux. </p>
 
 
 <section id="partie_5">
-<div id="imgleft">
-    <img src="" alt="photocreateur1">
+<div id="center">
+  <h3 class="titre">NOS <strong>CRÉATEURS</strong> DE CONTENU</h3>
+  <a href="noscreateurs" id="voirPlus">VOIR PLUS</a>
+  <div id="carrousel">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <img src="https://picsum.photos/300/300/?random&1">
+              <img src="https://picsum.photos/300/300/?random&2">
+              <img src="https://picsum.photos/300/300/?random&3">
+            </div>
+        </div>
+      <div class="text-center">
+      </div>
+    </div>
+</div>
 </div>
 
 
 
-<div id="center">
+<div class="center">
         <h3>ENVIE DE<br> <strong>DÉVELOPPER</strong> VOTRE<br> POTENTIEL</h3>
         <h4>IN.FLUENCE</h4>
               <div id="bulle">
