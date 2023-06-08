@@ -13,6 +13,9 @@
 <?php
     include "composant/header.html";
     ?>
+    <?php
+    include "composant/footer.html";
+    ?>
 </body>
 
 </html>
