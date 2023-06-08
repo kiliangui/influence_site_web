@@ -38,16 +38,16 @@ sur les réseaux sociaux. </p>
     </div>
    
     <div id="right">
-   <h3>À PROPOS DE NOUS</h3>
-   <h2>NOUS DONNONS VIE À <br> VOS  <strong>IDÉES</strong></h2>
-   <h4>Nous Aimons Créer</h4>
-   <p>Influence vous appportera son aide dans la réalisation de vos<br> projets mais aussi dans la concrétisation de vos idées.<br> Ensemble, nous construirons votre avenir digital.</p>
-   <div class="btn1">
-                <a  href="./contact.php">DÉCOUVREZ NOTRE ÉQUIPE</a>
+        <h3>À PROPOS DE NOUS</h3>
+         <h2>NOUS DONNONS VIE À <br> VOS  <strong>IDÉES</strong></h2>
+         <h4>Nous Aimons Créer</h4>
+          <p>Influence vous appportera son aide dans la réalisation de vos<br> projets mais aussi dans la concrétisation de vos idées.<br> Ensemble, nous construirons votre avenir digital.</p>
+     <div class="btn7">
+                <a id="btn7"  href="./equipe.php">DÉCOUVREZ NOTRE ÉQUIPE</a>
             </div> 
 
 
-</div>
+    </div>
 
 </section>
 
