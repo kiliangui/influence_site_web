@@ -1,11 +1,12 @@
 
-#equipe {
+#equipeContainer {
     margin-left: 120px;
     width: 90%;
+    padding-inline: 0%;
 }
 
 
-#equipe>h2 {
+#equipeContainer>h2 {
     font-size: 45px;
     margin-left: 120px;
     
@@ -14,7 +15,7 @@
 
 }
 
-#equipe>h1 {
+#equipeContainer>h1 {
     font-size: 96px;
     margin-left: 120px;
     
@@ -28,23 +29,23 @@
 
 
 
-#equipe>.nom>p{
+#equipeContainer>.nom>p{
     font-size: 36px;
 }
 
 
-#equipe>ul {
+#equipeContainer>ul {
     font-size: 45px;
     gap: 4rem;
     font-weight: 300;
     display: flex;
 }
-#equipe >ul li{
+#equipeContainer >ul li{
     display: flex;
     flex: 1;
     flex-direction: column;
 }
-#equipe >ul li>p{
+#equipeContainer >ul li>p{
     font-size: 24px;
 }
 
@@ -54,7 +55,7 @@
     align-items: center;
 }
 
-#equipe ul li img {
+#equipeContainer ul li img {
     width: 100%;
     aspect-ratio: 6/5;
 
