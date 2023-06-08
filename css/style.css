@@ -46,8 +46,8 @@ form{
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    margin: auto;
-    width: 33%;
+    /* margin: auto; */
+    width: 80%;
 }
 form div{
     width: 100%;
@@ -55,18 +55,32 @@ form div{
 
 
 /*Page form*/
+
+#contact{
+    display: flex;
+}
+#contact main p {
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+
 form label{
     display: block;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 form input, form textarea{
-    min-height: 1.5rem;
+    min-height: 2.5rem;
     width: 100%;
+    resize: vertical;
 }
 button, .btn{
     background-color: unset;
     color: white;
     padding-block: .25rem;
     border: #FCA311 solid 2px;
+    font-family: "Chillax-Variable";
 }
 button:hover, .btn:hover{
     cursor: pointer;
@@ -78,12 +92,62 @@ button:hover, .btn:hover{
 #formSocials li{
     display: flex;
     gap: 1.5rem;
+    align-items: center;
 }
 #formSocials .first{
     display: none;
     visibility: hidden;
 }
 
+#rs{
+    margin-top: 25px;
+}
+
+#btnenv{
+    font-size: 24px;
+    margin-inline: 5rem;
+}
+
+#add{
+    padding: 0 0.8rem;
+    margin-bottom: 10px;
+}
+
+.remove{
+    height: 25px;
+    width: 25px;
+    line-height: 0;
+}
+#formSocials div.blockUrl{
+    display: flex;
+align-items: center;
+gap: 1em;
+width: 100%;
+}
+.blockUrl input{
+    flex:1
+}
+
+
+/* Aside */
+aside{
+    margin-top: 10rem;
+    
+  font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+aside>div{
+    margin-bottom: .75rem;
+}
+aside .heading{
+    font-family: "chillax-Semibold";
+    color: #FCA311;
+    font-size: 40px;
+    margin-bottom: .5rem;
+}
+aside a {
+    text-decoration: underline;
+}
 
 
 
@@ -113,6 +177,8 @@ button:hover, .btn:hover{
 }
 .card .img img{
     width: 100%;
+    aspect-ratio: 1/1;
+object-fit: cover;
 
 }
 .card h2{
@@ -186,6 +252,9 @@ button:hover, .btn:hover{
 }
 #influenceur img{
     border-radius: 7%;
+    width: 35%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 #influenceur ul{
     display: flex;
@@ -204,7 +273,10 @@ button:hover, .btn:hover{
 
 
 
-
+#influenceur .social.stats img{
+    object-fit: unset;
+    aspect-ratio: unset;
+}
 
 
 
@@ -212,4 +284,12 @@ button:hover, .btn:hover{
 
 .flex1{
     flex:1;
+}
+
+
+@media (max-width: 1250px){
+    .cardList{
+        display: flex;
+        flex-direction: column;
+    }
 }

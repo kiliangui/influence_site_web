@@ -25,7 +25,7 @@
     $requetePreparee->execute();
     $influenceur = $requetePreparee->fetch();
 
-    $sql = "SELECT uid,url,nom FROM in_lien JOIN in_plateform WHERE in_lien.Id_plateform = in_plateform.Id_plateform AND in_lien.Id_influenceur =:id;";
+    $sql = "SELECT uid,url,nom,compteur FROM in_lien JOIN in_plateform WHERE in_lien.Id_plateform = in_plateform.Id_plateform AND in_lien.Id_influenceur =:id;";
     $requetePreparee = $bd->prepare($sql);
     $requetePreparee->BindValue(":id",$id);
     $requetePreparee->execute();
@@ -35,7 +35,7 @@
     $bd = NULL;
     ?>
     <main id="influenceur" class="main_i">
-        <img src="https://picsum.photos/400" alt="">
+        <img src="<?php echo $influenceur["pdpUrl"];?>" alt="">
         <div>
             <h1><?php
                 echo $influenceur["pseudo"];   
@@ -47,7 +47,13 @@
                     <ul>
                         <?php
                         foreach ($socials as $key => $social) {
-                            echo "<li id='".$social["uid"]."' class='social stats ".$social["nom"]."'><img class='svg' src='img/".$social["nom"].".svg' alt='social svg'><p>".$social["compteur"]."</p>"."<li>";
+                            $comp = $social["compteur"];
+                        if(intval($social["compteur"]) > 1000000){
+                            $comp = strval($social["compteur"]/1000000)."M";
+                        }else if (intval($social["compteur"]) > 1000){
+                            $comp = strval($social["compteur"]/1000)."K";
+                        }
+                            echo "<li id='".$social["uid"]."' class='social stats ".$social["nom"]."'><img class='svg' src='img/".$social["nom"].".svg' alt='social svg'><p>".$comp."</p>"."<li>";
                         }
 
                         ?>
