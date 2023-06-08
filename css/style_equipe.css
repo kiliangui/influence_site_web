@@ -30,6 +30,7 @@
 
 #equipeContainer p.nom{
     font-size: 36px;
+
 }
 
 
@@ -47,6 +48,7 @@
 }
 #equipeContainer >ul li>p{
     font-size: 24px;
+    text-align: center;
 }
 
 .gallery {
