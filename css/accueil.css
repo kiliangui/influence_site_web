@@ -91,6 +91,7 @@
     height: 90px;
     width: 90px;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .tout {
@@ -222,3 +223,28 @@ a:hover{
     background-color: #fca311;
 }
 
+
+#partie_3>#services>h3{
+    text-align: center;
+    color: #fca311;
+    font-size: 21px;
+    font-family: 'Montserrat';
+    margin-top: 100px;
+}
+
+#partie_3>#services>h2{
+    text-align: center;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+#partie_3>#services>p{
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Montserrat';
+    margin-bottom: 100px;
+    margin-top: 25px;
+}

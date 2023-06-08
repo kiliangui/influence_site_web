@@ -53,10 +53,10 @@ sur les réseaux sociaux. </p>
 
 
 <section id="partie_3">
-    <div> 
+    <div id="services"> 
         <h3>NOS SERVICES</h3>
         <h2>Découvrez Le Pouvoir De <strong>L'innovation</strong></h2>
-        <p>Nous proposons une diversité de services que vous ne verrez nulle part ailleurs. Étabmissons une relations de confiance et évoluant de façon optimale.</p>
+        <p>Nous proposons une diversité de services que vous <br> ne verrez nulle part ailleurs. Étabmissons une relations<br> de confiance et évoluant de façon optimale.</p>
 
    
     </div>
