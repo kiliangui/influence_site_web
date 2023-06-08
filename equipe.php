@@ -20,7 +20,7 @@
 <div id="equipeContainer">
     <h1><strong>L'équipe</strong> derrière in.fluence</h1>
     
-    <h2>Voici notre équipe:</h2>
+    <!-- <h2>Voici notre équipe:</h2> -->
     <ul>
         <li>
             <p class="nom">Consultant digital</p>
