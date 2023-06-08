@@ -44,16 +44,16 @@ sur les réseaux sociaux. </p>
     </div>
    
     <div id="right">
-   <h3>À PROPOS DE NOUS</h3>
-   <h2>NOUS DONNONS VIE À <br> VOS  <strong>IDÉES</strong></h2>
-   <h4>Nous Aimons Créer</h4>
-   <p>Influence vous appportera son aide dans la réalisation de vos<br> projets mais aussi dans la concrétisation de vos idées.<br> Ensemble, nous construirons votre avenir digital.</p>
-   <div class="btn1">
-                <a  href="./contact.php">DÉCOUVREZ NOTRE ÉQUIPE</a>
+        <h3>À PROPOS DE NOUS</h3>
+         <h2>NOUS DONNONS VIE À <br> VOS  <strong>IDÉES</strong></h2>
+         <h4>Nous Aimons Créer</h4>
+          <p>Influence vous appportera son aide dans la réalisation de vos<br> projets mais aussi dans la concrétisation de vos idées.<br> Ensemble, nous construirons votre avenir digital.</p>
+     <div class="btn7">
+                <a id="btn7"  href="./equipe.php">DÉCOUVREZ NOTRE ÉQUIPE</a>
             </div> 
 
 
-</div>
+    </div>
 
 </section>
 
@@ -70,7 +70,7 @@ sur les réseaux sociaux. </p>
         <ul>
             <li>
                 <div class="picto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg></div>
-               <p class="missions"><strong>GESTION</strong> DE COMPTE</p> 
+               <p class="missions"><strong>GESTION</strong> DE<br> COMPTE</p> 
                <ul class="listeAttribut">
                    <li><p>Optimisation de votre contenu</p></li>
                    <li> <p>Modération de vos réseaux</p></li>
@@ -80,21 +80,21 @@ sur les réseaux sociaux. </p>
             <li>
                 <div class="picto">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M339.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L568.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S517.7-4.4 499.1 9.6L262.4 187.2c-24 18-38.2 46.1-38.4 76.1L339.3 367.1zm-19.6 25.4l-116-104.4C143.9 290.3 96 339.6 96 400c0 3.9 .2 7.8 .6 11.6C98.4 429.1 86.4 448 68.8 448H64c-17.7 0-32 14.3-32 32s14.3 32 32 32H208c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></div>
-               <p class="missions"><strong>GESTION</strong> DE COMPTE</p> 
+               <p class="missions">DIRECTION<strong> ARTISTIQUE</strong>  SUR MESURE</p> 
                <ul class="listeAttribut">
-                   <li><p>Optimisation de votre contenu</p></li>
-                   <li> <p>Modération de vos réseaux</p></li>
-                   <li> <p>Conseil de vos publications</p></li>
+                   <li><p>Création d'univers</p></li>
+                   <li> <p>Création de charte<br> graphique</p></li>
+                   <li> <p>Gestion d'image</p></li>
                </ul>
             </li>
             <li>
                 <div class="picto">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg></div>
-               <p class="missions"><strong>GESTION</strong> DE COMPTE</p> 
+               <p class="missions">NOTRE ÉQUIPE <br> <strong>D'EXPERT</strong> À VOS CÔTÉS</p> 
                <ul class="listeAttribut">
-                   <li><p>Optimisation de votre contenu</p></li>
-                   <li> <p>Modération de vos réseaux</p></li>
-                   <li> <p>Conseil de vos publications</p></li>
+                   <li><p>Équipe de production</p></li>
+                   <li> <p>Régie publicitaire</p></li>
+                   <li> <p>Manager<br></p></li>
                </ul>
             </li>
 
