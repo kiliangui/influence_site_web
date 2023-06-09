@@ -133,6 +133,7 @@ main#accueil{
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+    flex: 1;
 
 }
 
@@ -152,7 +153,6 @@ main#accueil{
 
 #partie_3>main>ul {
     display: flex;
-    align-items: center;
     flex-direction: row;
     padding-inline: 2em;
     gap: 6em;

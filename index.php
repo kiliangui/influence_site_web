@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/accueil.css">
     <script src="script/jquery-3.7.0.min.js"></script>
     <script src="script/owl.carousel.min.js" defer></script>
     
@@ -28,7 +29,7 @@
     <div class="left">
     <h3>ENSEMBLE, NOUS INFLUENCERONS LE MONDE</h3>
    <h1>NOUS ACCOMPAGNONS LES <strong>CRÉATEURS</strong></h1>
-   <p>In.fluence est une société de management, de production
+   <p>in.fluence est une société de management, de production
 et de communication digitale. Nous nous engageons 
 donc à faire de votre contenu ou de votre marque une référence
 sur les réseaux sociaux. </p>
@@ -47,7 +48,7 @@ sur les réseaux sociaux. </p>
         <h3>À PROPOS DE NOUS</h3>
         <h2>NOUS DONNONS VIE À <br> VOS  <strong>IDÉES</strong></h2>
         <h4>Nous Aimons Créer</h4>
-        <p>Influence vous appportera son aide dans la réalisation de vos<br> projets mais aussi dans la concrétisation de vos idées.<br> Ensemble, nous construirons votre avenir digital.</p>
+        <p>in.fluence vous appportera son aide dans la réalisation de vos<br> projets mais aussi dans la concrétisation de vos idées.<br> Ensemble, nous construirons votre avenir digital.</p>
         <a class="btn" href="./equipe.php">DÉCOUVREZ NOTRE ÉQUIPE</a>
 
     </div>
