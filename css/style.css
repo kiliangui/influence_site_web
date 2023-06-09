@@ -294,10 +294,18 @@ object-fit: cover;
     object-fit: cover;
 }
 #influenceur ul{
-    display: flex;
-    gap: 5px;
+    
     width: fit-content;
-    flex-direction: column;
+}
+#influenceur ul li a{
+    display: flex;
+    
+    gap: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+#influenceur ul li a:hover{
+    background-color: unset;
 }
 #influenceur h1{
     font-family: "Chillax-Regular";

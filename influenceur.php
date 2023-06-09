@@ -53,7 +53,7 @@
                         }else if (intval($social["compteur"]) > 1000){
                             $comp = strval($social["compteur"]/1000)."K";
                         }
-                            echo "<li id='".$social["uid"]."' class='social stats ".$social["nom"]."'><img class='svg' src='img/".$social["nom"].".svg' alt='social svg'><p>".$comp."</p>"."<li>";
+                            echo "<li id='".$social["uid"]."' class='social stats ".$social["nom"]."'><a href='".$social["url"]."'><img class='svg' src='img/".$social["nom"].".svg' alt='social svg'><p>".$comp."</p></a>"."<li>";
                         }
 
                         ?>
