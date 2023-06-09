@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe in.fluence</title>
+    <title>in.fluence - L'equipe</title>
     <link rel="stylesheet" href="css/style_equipe.css">
     <?php
     include "composant/head.html";

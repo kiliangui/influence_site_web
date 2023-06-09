@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <script src="script/youtube.js" defer></script>
-    <?php
-    include "composant/head.html";
-    ?>
-</head>
-<body>
-    <?php
+<?php
     include "composant/header.html";
 
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_URL);
@@ -33,6 +19,24 @@
 
     $bd = NULL;
     ?>
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>in.fluence - <?php echo $influenceur["pseudo"]; ?></title>
+    
+    <script src="script/youtube.js" defer></script>
+    <?php
+    include "composant/head.html";
+    ?>
+</head>
+<body>
+    
     <main id="influenceur" class="main_i">
         <img src="<?php echo $influenceur["pdpUrl"];?>" alt="">
         <div>

@@ -146,21 +146,21 @@ main#accueil{
 .picto {
     
     text-align: center;
-    width: 346px ;
     height: 38px;
   
 }
 
+
 #partie_3>div>ul {
     display: flex;
     flex-direction: row;
-    padding-inline: 2em;
-    gap: 6em;
+    padding-inline: 10vw;
+    gap: 4vw;
 }
 
 
 #partie_3>div {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 
 }
@@ -357,4 +357,11 @@ main#accueil{
     font-family: 'Montserrat';
     margin-bottom: 100px;
     margin-top: 25px;
+}
+
+
+@media (max-width: 1250px){
+    #partie_3>div>ul {
+        flex-direction: column;
+    }
 }
