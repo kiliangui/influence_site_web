@@ -18,7 +18,7 @@
 
         <h1 class="text-center">Nos <strong>projets</strong> originaux !</h1>
         <section id="pro">
-            <div class="proitems"><img src="https://fakeimg.pl/427x249/"><div class="titre"><p>title</p></div></div>
+            <div class="proitems"><img src=""><div class="titre"><p>title</p></div></div>
             <div class="proitems"><img src="https://fakeimg.pl/427x249/"><div class="titre"><p>title</p></div></div>
             <div class="proitems"><img src="https://fakeimg.pl/427x249/"><div class="titre"><p>title</p></div></div>
             <div class="proitems"><img src="https://fakeimg.pl/427x249/"><div class="titre"><p>title</p></div></div>
