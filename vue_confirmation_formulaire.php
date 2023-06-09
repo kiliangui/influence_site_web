@@ -19,7 +19,9 @@
         echo "<h1>Merci ".$pseudo." !</h1><br>";
 
         ?>
-        <p>Votre demande à bien était transmise a l'équipe d'<strong>in.fluence</strong>, nous vous répondrons dans les plus brefs délais</p><?php
+        <p>Votre demande à bien était transmise a l'équipe d'<strong>in.fluence</strong>, nous vous répondrons dans les plus brefs délais</p>
+        <a class="btn" href="index.php">Retour a l'accueil</a>
+        <?php
     }
     else{
         echo "une erreur est survenue";
