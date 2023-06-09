@@ -33,7 +33,7 @@
 et de communication digitale. Nous nous engageons 
 donc à faire de votre contenu ou de votre marque une référence
 sur les réseaux sociaux. </p>
-<a class="btn" >QUI SOMMES-NOUS ?</a>
+<a class="btn" href="equipe.php" >QUI SOMMES-NOUS ?</a>
 </div>
 
 

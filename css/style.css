@@ -26,6 +26,11 @@ a:hover{
     background-color: #fca311;
 }
 
+
+a, button, .btn{
+    transition: background-color .25s ease-in-out;
+}
+
 li{
     
     text-decoration: none;
