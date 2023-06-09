@@ -56,7 +56,7 @@
         }
         echo '</ul></div>';
         echo "<h2>".$influenceur["pseudo"]."</h2>";
-        echo "<p>Sous titre</p></div>";
+        echo "<p>".$influenceur['sousTitre']."</p></div>";
         echo"</a></li>";
     }
     echo "</ul>";

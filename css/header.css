@@ -1,9 +1,18 @@
 html{
     background-color: black;
+
 }
 
 header{
-   padding: 30px 200px 30px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 30px;
+   position: fixed;
+   z-index: 25;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100vw;
 }
 
 .menu{
