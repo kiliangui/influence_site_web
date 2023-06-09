@@ -112,9 +112,9 @@ sur les réseaux sociaux. </p>
     <div class="container">
         <div class="col-md-12">
             <div class="owl-carousel owl-theme">
-              <img src="https://picsum.photos/300/300/?random&1">
-              <img src="https://picsum.photos/300/300/?random&2">
-              <img src="https://picsum.photos/300/300/?random&3">
+              <img src="./img/portrait_jo.jpg">
+              <img src="./img/moi.webp">
+              <img src="./img/cocotte.png">
             </div>
         </div>
       <div class="text-center">
