@@ -29,17 +29,14 @@ header li{
     font-size: 24px;
 }
 
-a{
-    text-decoration: none;
-    color:white ;   
-}
 
 header a:hover{
     color: #fca311;
+    background-color: unset;
     
 }
 
-a:after {
+header a:after {
     content: '';
     display: block;
     bottom: 1.5px;

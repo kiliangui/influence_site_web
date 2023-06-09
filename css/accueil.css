@@ -1,3 +1,128 @@
+main#accueil{
+    padding-inline: 0;
+}
+#accueil strong{
+    text-decoration: unset;
+}
+#accueil h3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 21px;
+    color: #fca311;
+}
+#accueil h1{
+    font-family: "Chillax-Bold";
+    font-size: 80px;
+}
+
+#accueil a.btn{
+    font-size: 17px;
+    padding: 6px;
+    letter-spacing: 3px;
+}
+
+/* Partie 1 */
+
+#partie_1 {
+    height: 80vh;
+    margin-top: 3rem;
+    background-image: url("../img/outplay.png");
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+#partie_1 .left{
+    padding-inline: 10%;
+    width: 40%;
+}
+#partie_1 h1{
+    line-height: 1em;
+}
+#partie_1 h1::after{
+    background-color: #fca311;
+}
+#partie_2 h2::after{
+    background-color: white;
+}
+#partie_1 h1::after, #partie_2 h2::after{
+    display: block;
+    content: "";
+    margin-top: 2rem;
+    width: 128px;
+    height: 3px;
+    border-radius: 25px;
+}
+#partie_1 p, #partie_2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    padding-right: 5rem;
+    line-height: 141%;
+
+}
+#partie_1 .btn, #partie_2 .btn{
+    margin-block: 2rem;
+    display: inline-block;
+}
+
+/* Partie 2 */
+/*partie 2*/
+
+#partie_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#partie_2>.right{
+    margin-top: 3rem;
+}
+
+#partie_2>.right>h3 {
+    font-size: 21px;
+    font-family: 'Montserrat';
+    color: #fca311;
+    margin-bottom: 30px;
+}
+
+
+#partie_2>.right>h2 {
+    font-size: 48px;
+    font-family: "chillax-Bold";
+}
+
+
+#partie_2>.right>h4 {
+    font-size: 17px;
+    font-family: 'Montserrat';
+    color: #fca311;
+    font-weight: 300;
+    padding-block: 30px;
+}
+#lezz{
+    flex: 1;
+}
+#lezz img{
+    width: 100%;
+}
+
+
+.right {
+    margin-left: 50px;
+    padding: 30px;
+    
+}
+
+
+/* Partie 3 */
+
+
 #partie_3>main>ul>li {
     background-color: #231a0a;
     border: white 6px solid;
@@ -140,12 +265,18 @@
 }
 
 
+
+
+/* Partie 5 */
 #partie_5 >div >h3{
     font-size: 55px;
     font-family: "chillax-Bold";
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: white;
+    letter-spacing: unset;
+    white-space: unset;
 }
 
 #voirPlus{
@@ -157,6 +288,15 @@
     font-family: "Chillax-Variable";
     font-size: 21px;
     color: #fca311;
+    transition: color .25s ease-in;
+    -webkit-transition: color .25s ease-in;
+    -moz-transition: color .25s ease-in;
+    -ms-transition: color .25s ease-in;
+    -o-transition: color .25s ease-in;
+}
+#voirPlus:hover{
+    background-color: unset;
+    color: #FED105;
 }
 
 #voirPlus::before, #voirPlus::after{
@@ -192,61 +332,6 @@
     padding: 10px 10px 10px 10px;
 }
 
-/*partie 2*/
-
-#partie_2 {
-    display: flex;
-    flex-direction: row;
-}
-
-#partie_2>#right>h3 {
-    font-size: 21px;
-    font-family: 'Montserrat';
-    color: #fca311;
-    margin-bottom: 30px;
-}
-
-
-#partie_2>#right>h2 {
-    font-size: 48px;
-    font-family: "chillax-Bold";
-}
-
-
-#partie_2>#right>h4 {
-    font-size: 17px;
-    font-family: 'Montserrat';
-    color: #fca311;
-    font-weight: 300;
-   padding: 30px;
-}
-
-#partie_2>#right>p {
-    font-size: 21px;
-    font-family: 'Montserrat';
-    font-weight: 300;
-  
-}
-
-#right {
-    margin-left: 50px;
-    padding: 30px;
-    
-}
-
-#partie_2>#right>.btn7>#btn7 {
-    font-size: 17px;
-    font-family: "chillax-Regular";
- border:solid #fca311  3px;
- display: flex;
- justify-content: center;
- margin: 100px 120px 0px 120px;
- padding: 10px;
-}
-
-a:hover{
-    background-color: #fca311;
-}
 
 
 #partie_3>#services>h3{
