@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js" defer></script>
+    <script src="script/youtube.js" defer></script>
     <?php
     include "composant/head.html";
     ?>
@@ -52,7 +52,7 @@
              }else if (intval($social["compteur"]) > 1000){
                  $comp = strval($social["compteur"]/1000)."K";
              }
-            echo '<li id="'.$social["uid"].'" class="stats social '.$social["nom"].'"><img class="svg" src="img/'.$social["nom"].'.svg" alt="social svg"> <p>'.$comp.'</p>'.'</li>';
+            echo '<li class="stats social '.$social["nom"].'"><img class="svg" src="img/'.$social["nom"].'.svg" alt="social svg"> <p>'.$comp.'</p>'.'</li>';
         }
         echo '</ul></div>';
         echo "<h2>".$influenceur["pseudo"]."</h2>";

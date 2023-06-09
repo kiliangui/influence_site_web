@@ -73,13 +73,13 @@ form div{
 
 /*Page form*/
 
-#contact{
+#contactP{
     display: flex;
 }
-#contact main{
+#contactP main{
     width: 45%;
 }
-#contact main p {
+#contactP main p {
     font-size: 32px;
     padding-bottom: 60px;
 }
@@ -162,7 +162,7 @@ width: 100%;
 }
 
 
-#contact main p.conditionForm{
+#contactP main p.conditionForm{
     margin-top: 1.5rem;
     font-size: 20px;
 }
@@ -289,6 +289,12 @@ object-fit: cover;
     display: flex;
     gap: 1rem;
 }
+#influenceur > div{
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
 #influenceur p {
     font-size: 36px;
 }
@@ -299,12 +305,15 @@ object-fit: cover;
     object-fit: cover;
 }
 #influenceur ul{
-    
-    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    /* width: fit-content; */
 }
 #influenceur ul li a{
     display: flex;
-    
+    margin-top: auto;
     gap: 5px;
     align-items: center;
     flex-direction: row;
@@ -326,6 +335,7 @@ object-fit: cover;
 #influenceur .social.stats img{
     object-fit: unset;
     aspect-ratio: unset;
+    width: 32px;
 }
 
 

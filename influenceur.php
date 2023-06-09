@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <script src="script.js" defer></script>
+    <script src="script/youtube.js" defer></script>
     <?php
     include "composant/head.html";
     ?>
 </head>
-<!--AIzaSyBVYNBvj_INzPu4d6SvzG1zk05SIrGuIfc--->
 <body>
     <?php
     include "composant/header.html";
@@ -53,7 +52,7 @@
                         }else if (intval($social["compteur"]) > 1000){
                             $comp = strval($social["compteur"]/1000)."K";
                         }
-                            echo "<li id='".$social["uid"]."' class='social stats ".$social["nom"]."'><a href='".$social["url"]."'><img class='svg' src='img/".$social["nom"].".svg' alt='social svg'><p>".$comp."</p></a>"."<li>";
+                            echo "<li class='social stats ".$social["nom"]."'><a href='".$social["url"]."'><img class='svg' src='img/".$social["nom"].".svg' alt='social svg'><p>".$comp."</p></a>"."<li>";
                         }
 
                         ?>

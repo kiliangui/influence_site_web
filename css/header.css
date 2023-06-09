@@ -62,7 +62,7 @@ header a:hover:after {
   }
 
 
-#logo{
+#logoh{
     display: flex;
     align-items: center;
 }
@@ -100,7 +100,7 @@ display: flex;
         
     }
 
-    #logo{
+    #logoh{
         display: flex;
         justify-content: center;
         justify-items: center;

@@ -11,13 +11,13 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
-#logo {
+#logof {
   display: flex;
   flex-direction: row;
 justify-content: center;
 }
 
-/* #logo img {
+/* #logof img {
   width: 30%;
 
 } */

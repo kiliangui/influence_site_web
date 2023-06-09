@@ -22,9 +22,9 @@
                             $tabLignes = $requetePreparee->fetchAll();
                             $bd = null;
     ?>
-    <div id="contact">
 
-    <main>
+<div id="contactP">
+    <main >
     <h1 ><strong>Contactez</strong> nous !</h1>
     <p>Envie de développer votre projet avec nous ?<br>
 Contactez-nous maintenant et avançons ensemble !
