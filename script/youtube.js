@@ -1,5 +1,6 @@
+// Ce script permet de définir le nombre de followers (Il est préférable de le faire en php, mais pour les cours, on avais besoin de faire du javascript).
 console.log("test");
-const ytbapi ="AIzaSyBVYNBvj_INzPu4d6SvzG1zk05SIrGuIfc";
+const ytbapi =""; // Don't put api-key on client
 youtubes = document.querySelectorAll(".stats.youtube");
 
 console.log(youtubes);
